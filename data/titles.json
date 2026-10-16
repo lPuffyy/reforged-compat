@@ -1,0 +1,29 @@
+{
+  "_about": "One entry per tested build of a program, keyed by the SHA-256 of its main executable (the companion tool prints it). 'status' is one of: playable, ingame, menus, boots, nothing. Reports are per device; 'reports' lists them newest first.",
+  "titles": [
+    {
+      "title": "Halo 2",
+      "region": "USA, Europe",
+      "executable_sha256": "03215919bb7163259257d361f4c7bf802a7ab12aa85e2689436369b5c427935d",
+      "status": "ingame",
+      "summary": "Menus, campaign and multiplayer run at the game's 30 frames per second. Occasional lighting and post-processing errors remain on the phone's graphics path; not every level has been played.",
+      "known_issues": [
+        "Some areas render too dark or too bright on the phone",
+        "Some levels have not been tested and may hang",
+        "Frame-rate dips while new textures load",
+        "No online play, no hardware controllers"
+      ],
+      "reports": [
+        {
+          "date": "2026-10-15",
+          "reforged": "preview build (pre-0.1.0)",
+          "device": "iPhone (A17 Pro)",
+          "ios": "not recorded",
+          "result": "ingame",
+          "fps": "28-30",
+          "notes": "Slayer on a multiplayer map and the campaign were played; see known issues."
+        }
+      ]
+    }
+  ]
+}

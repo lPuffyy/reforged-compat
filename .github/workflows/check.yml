@@ -1,0 +1,14 @@
+name: check
+on: [push, pull_request]
+jobs:
+  data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: python -I tools/gen_table.py --check
+      - name: Reject files that must not be here
+        run: |
+          bad=$(git ls-files | grep -iE '\.(iso|xbe|xiso|bin|rom|ipa|dylib|exe|dll|zip|7z)$' || true)
+          test -z "$bad" || { echo "forbidden files:"; echo "$bad"; exit 1; }

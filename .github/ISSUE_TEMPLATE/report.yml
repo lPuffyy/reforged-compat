@@ -1,0 +1,38 @@
+name: Compatibility report
+description: Tell us how a program ran on Reforged
+title: "Report: "
+labels: ["report"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Results only. Do **not** attach or link game files, disc images, firmware, keys, saves or the personal app the companion made.
+  - type: input
+    id: title
+    attributes: { label: Title and region, placeholder: "Name as printed on the disc, and its region" }
+    validations: { required: true }
+  - type: input
+    id: hash
+    attributes: { label: Executable SHA-256, description: "Printed by the companion tool (64 hex characters)." }
+    validations: { required: true }
+  - type: dropdown
+    id: status
+    attributes:
+      label: Result
+      options: ["Playable (start to finish, minor problems)", "In-game (gameplay with problems)", "Menus (menus only)", "Boots (starts, then stops)", "Nothing (does not start)"]
+    validations: { required: true }
+  - type: input
+    id: device
+    attributes: { label: Device and iOS version, placeholder: "iPhone 15 Pro, iOS 18.1" }
+    validations: { required: true }
+  - type: input
+    id: version
+    attributes: { label: Reforged version, placeholder: "v0.1.0 or the preview build date" }
+    validations: { required: true }
+  - type: input
+    id: fps
+    attributes: { label: Typical frame rate, placeholder: "e.g. 28-30" }
+  - type: textarea
+    id: notes
+    attributes: { label: What worked and what did not, description: "Be specific: which levels, menus or features. Screenshots and short clips are welcome." }
+    validations: { required: true }
