@@ -34,7 +34,7 @@ Known issues:
 
 | Date | Reforged | Device | iOS | Result | Frame rate | Notes |
 |---|---|---|---|---|---|---|
-| 2026-10-15 | preview build (pre-0.1.0) | iPhone (A17 Pro) | not recorded | In-game | 28-30 | Slayer on a multiplayer map and the campaign were played; see known issues. |
+| 2026-10-15 | preview build (pre-0.1.0) | iPhone (A17 Pro) | 26.7.1 | In-game | 28-30 | Slayer on a multiplayer map and the campaign were played; see known issues. |
 
 ## Add or update a result
 
