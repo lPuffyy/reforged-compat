@@ -16,25 +16,34 @@ the project is not affiliated with or endorsed by any console maker or publisher
 
 ## Tested
 
-| Title | Region | Status | Summary | Executable SHA-256 |
-|---|---|---|---|---|
-| Halo 2 | USA, Europe | In-game | Menus, campaign and multiplayer run at the game's 30 frames per second. Occasional lighting and post-processing errors remain on the phone's graphics path; not every level has been played. | `03215919bb7163259257d361f4c7bf802a7ab12aa85e2689436369b5c427935d` |
+| Title | Region | Status |
+|---|---|---|
+| [Halo 2](#halo-2-usa-europe) | USA, Europe | In-game |
 
 ## Details
 
 ### Halo 2 (USA, Europe)
 
-Status: **In-game**. Menus, campaign and multiplayer run at the game's 30 frames per second. Occasional lighting and post-processing errors remain on the phone's graphics path; not every level has been played.
+**Status:** In-game
 
-Known issues:
+Menus, campaign and multiplayer run at the game's 30 frames per second. Occasional lighting and post-processing errors remain on the phone's graphics path; not every level has been played.
+
+**Known issues**
+
 - Some areas render too dark or too bright on the phone
 - Some levels have not been tested and may hang
 - Frame-rate dips while new textures load
 - No online play, no hardware controllers
 
-| Date | Reforged | Device | iOS | Result | Frame rate | Notes |
-|---|---|---|---|---|---|---|
-| 2026-10-15 | preview build (pre-0.1.0) | iPhone (A17 Pro) | 26.7.1 | In-game | 28-30 | Slayer on a multiplayer map and the campaign were played; see known issues. |
+**Executable SHA-256**
+
+```
+03215919bb7163259257d361f4c7bf802a7ab12aa85e2689436369b5c427935d
+```
+
+**Reports** (newest first)
+
+- 2026-10-15, Reforged preview build (pre-0.1.0), iPhone (A17 Pro), iOS 26.7.1, In-game, 28-30 fps. Slayer on a multiplayer map and the campaign were played; see known issues.
 
 ## Add or update a result
 
